@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "myname:superdrill",
+      "menu_category": { "category": "equipment", "group": "itemGroup.name.pickaxe" }
+    },
+    "components": {
+      "minecraft:icon": { "textures": { "default": "superdrill" } },
+      "minecraft:display_name": { "value": "item.myname:superdrill.name" },
+      "minecraft:lore": { "value": ["§6§lOne-use drill that can bore up or down.","§7Tap ground to activate menu.","§eCraft: 5 Miner Bot Eggs + Diamond + Ender Eye§r"] },
+      "minecraft:max_stack_size": 1,
+      "minecraft:glint": true,
+      "minecraft:hand_equipped": true,
+      "minecraft:can_destroy_in_creative": false
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "myname:craft_butler_bot_egg" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "ISI",
+      "ABA",
+      "IGI"
+    ],
+    "key": {
+      "I": { "item": "minecraft:iron_ingot" },
+      "S": { "item": "minecraft:iron_sword" },
+      "A": { "item": "minecraft:armor_stand" },
+      "B": { "item": "minecraft:bell" },
+      "G": { "item": "minecraft:gold_ingot" }
+    },
+    "result": { "item": "myname:butler_bot_spawn_egg", "count": 1 }
+  }
+}

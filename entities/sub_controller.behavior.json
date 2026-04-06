@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "myname:sub_controller",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": { "family": ["sub_controller"] },
+      "minecraft:physics": { "has_collision": false, "has_gravity": false },
+      "minecraft:collision_box": { "height": 0.1, "width": 0.1 },
+      "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+      "minecraft:damage_sensor": { "triggers": [ { "deals_damage": "no" } ] },
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "pull_in_entities": true,
+        "controlling_seat": 0,
+        "seats": [ { "position": [0, 0, 0], "lock_rider_rotation": 0, "min_rider_count": 0, "max_rider_count": 1 } ]
+      },
+      "minecraft:instant_despawn": {},
+      "minecraft:variant": { "value": 0 }
+    }
+  }
+}

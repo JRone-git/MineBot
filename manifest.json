@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Leny's Amped Bots (Behavior)",
+    "description": "Behavior pack for Leny's Amped Bots",
+    "uuid": "c94abf75-7fd2-47f7-b60b-1b3e8c556dde",
+    "version": [1, 0, 101],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description": "Leny's Amped Bots (Behavior)",
+      "type": "data",
+      "uuid": "6aed09e9-c6d3-4030-8064-da6bd6fc2cb4",
+      "version": [1, 0, 101]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "6f3a2a91-1b9d-4a71-9b5d-0f6d6f0d9a11",
+      "version": [1, 0, 101]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "7893a295-edae-404c-bda4-0ecdb0a48853",
+      "version": [1, 0, 101]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.11.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.2.0"
+    }
+  ]
+}

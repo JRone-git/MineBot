@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "myname:craft_redstone_bot_egg" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "RTR",
+      "PCP",
+      "RTR"
+    ],
+    "key": {
+      "R": { "item": "minecraft:redstone_block" },
+      "T": { "item": "minecraft:redstone_torch" },
+      "P": { "item": "minecraft:piston" },
+      "C": { "item": "minecraft:comparator" }
+    },
+    "result": { "item": "myname:redstone_bot_spawn_egg", "count": 1 }
+  }
+}

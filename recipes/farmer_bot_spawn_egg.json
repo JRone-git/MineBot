@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "myname:craft_farmer_bot_egg" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "WSW",
+      "HCH",
+      "WSW"
+    ],
+    "key": {
+      "W": { "item": "minecraft:wheat_seeds" },
+      "S": { "item": "minecraft:wheat" },
+      "H": { "item": "minecraft:iron_hoe" },
+      "C": { "item": "minecraft:chest" }
+    },
+    "result": { "item": "myname:farmer_bot_spawn_egg", "count": 1 }
+  }
+}

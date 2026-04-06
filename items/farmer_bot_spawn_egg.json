@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": { "identifier": "myname:farmer_bot_spawn_egg", "menu_category": { "category": "items", "group": "itemGroup.name.spawnEgg" } },
+    "components": {
+      "minecraft:icon": { "textures": { "default": "gunna_spawn_egg" } },
+      "minecraft:max_stack_size": 64,
+      "minecraft:glint": false,
+      "minecraft:use_animation": "none",
+      "minecraft:display_name": { "value": "item.myname:farmer_bot_spawn_egg.name" },
+      "minecraft:entity_placer": { "entity": "myname:farmer_bot" }
+    }
+  }
+}

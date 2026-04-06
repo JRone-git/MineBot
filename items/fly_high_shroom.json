@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": { "identifier": "myname:fly_high_shroom", "menu_category": { "category": "items" } },
+    "components": {
+      "minecraft:display_name": { "value": "Fly High Shroom" },
+      "minecraft:icon": { "textures": { "default": "fly_high_shroom" } },
+      "minecraft:max_stack_size": 64,
+      "minecraft:glint": true,
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": { "use_duration": 1.6 },
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 2,
+        "saturation_modifier": 0.2
+      }
+    }
+  }
+}

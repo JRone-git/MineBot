@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "myname:craft_beekeeper_bot_egg" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "HBH",
+      "CPC",
+      "HBH"
+    ],
+    "key": {
+      "H": { "item": "minecraft:honeycomb" },
+      "B": { "item": "minecraft:glass_bottle" },
+      "C": { "item": "minecraft:campfire" },
+      "P": { "item": "minecraft:beehive" }
+    },
+    "result": { "item": "myname:beekeeper_bot_spawn_egg", "count": 1 }
+  }
+}

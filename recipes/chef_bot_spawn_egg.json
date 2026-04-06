@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "myname:craft_chef_bot_egg" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "BFB",
+      "WSW",
+      "BWB"
+    ],
+    "key": {
+      "B": { "item": "minecraft:bowl" },
+      "F": { "item": "minecraft:furnace" },
+      "S": { "item": "minecraft:smoker" },
+      "W": { "item": "minecraft:wheat" }
+    },
+    "result": { "item": "myname:chef_bot_spawn_egg", "count": 1 }
+  }
+}

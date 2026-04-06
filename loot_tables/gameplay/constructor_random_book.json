@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            { "function": "enchant_randomly" }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

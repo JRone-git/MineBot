@@ -1,0 +1,40 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "myname:gunna",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "gunna:adult": {},
+      "gunna:minime": {
+        "minecraft:is_baby": {},
+        "minecraft:scale": { "value": 0.5 }
+      }
+    },
+    "components": {
+      "minecraft:nameable": { "always_show": true },
+      "minecraft:type_family": { "family": ["robot", "mob"] },
+      "minecraft:breathable": { "total_supply": 15, "suffocate_time": 0 },
+      "minecraft:collision_box": { "width": 0.6, "height": 0.8 },
+      "minecraft:health": { "value": 8, "max": 8 },
+      "minecraft:movement": { "value": 0.0 },
+      "minecraft:jump.static": {},
+      "minecraft:physics": {},
+      "minecraft:pushable": { "is_pushable": true, "is_pushable_by_piston": true },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:loot": { "table": "loot_tables/entities/gunna.json" },
+      "minecraft:despawn": { "despawn_from_distance": {} }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          { "weight": 9, "add": { "component_groups": ["gunna:adult"] } },
+          { "weight": 1, "add": { "component_groups": ["gunna:minime"] } }
+        ]
+      }
+    }
+  }
+}

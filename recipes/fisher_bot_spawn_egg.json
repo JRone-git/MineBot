@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "myname:craft_fisher_bot_egg" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "SFS",
+      "NBW",
+      "SFS"
+    ],
+    "key": {
+      "S": { "item": "minecraft:string" },
+      "F": { "item": "minecraft:fishing_rod" },
+      "N": { "item": "minecraft:nautilus_shell" },
+      "B": { "item": "minecraft:barrel" },
+      "W": { "item": "minecraft:water_bucket" }
+    },
+    "result": { "item": "myname:fisher_bot_spawn_egg", "count": 1 }
+  }
+}

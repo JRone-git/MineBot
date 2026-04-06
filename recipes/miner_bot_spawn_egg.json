@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "myname:craft_miner_bot_egg" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "ITI",
+      "CPB",
+      "ITI"
+    ],
+    "key": {
+      "I": { "item": "minecraft:iron_ingot" },
+      "T": { "item": "minecraft:torch" },
+      "C": { "item": "minecraft:chest" },
+      "P": { "item": "minecraft:iron_pickaxe" },
+      "B": { "item": "minecraft:iron_block" }
+    },
+    "result": { "item": "myname:miner_bot_spawn_egg", "count": 1 }
+  }
+}

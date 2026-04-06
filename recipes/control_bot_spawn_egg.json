@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "myname:craft_control_bot_egg" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "ROR",
+      "CLC",
+      "RPR"
+    ],
+    "key": {
+      "R": { "item": "minecraft:redstone" },
+      "O": { "item": "minecraft:observer" },
+      "L": { "item": "minecraft:lever" },
+      "C": { "item": "minecraft:comparator" },
+      "P": { "item": "minecraft:ender_pearl" }
+    },
+    "result": { "item": "myname:control_bot_spawn_egg", "count": 1 }
+  }
+}
