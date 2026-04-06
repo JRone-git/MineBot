@@ -1,0 +1,64 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "myname:gunna": {
+        "events": {
+          "ambient": "mob.irongolem.say",
+          "death": "mob.irongolem.death",
+          "hurt": "mob.irongolem.hit",
+          "step": { "pitch": 1, "sound": "mob.irongolem.walk", "volume": 1 },
+          "throw": { "pitch": 1, "sound": "mob.irongolem.throw", "volume": 1 }
+        },
+        "pitch": [0.8, 1.2],
+        "volume": 1
+      }
+    }
+  },
+  "sound_definitions": {
+    "labs.beekeeper_song": {
+      "category": "music",
+      "max_distance": 128,
+      "sounds": [ { "name": "beekeeper_song", "volume": 1, "stream": true } ]
+    },
+    "labs.miner_song": {
+      "category": "music",
+      "max_distance": 128,
+      "sounds": [ { "name": "Minerbot_lament", "volume": 1, "stream": true } ]
+    },
+    "labs.fisher_song": {
+      "category": "music",
+      "max_distance": 128,
+      "sounds": [ { "name": "fisherbot", "volume": 1, "stream": true } ]
+    },
+    "labs.butler_song": {
+      "category": "music",
+      "max_distance": 128,
+      "sounds": [ { "name": "butler_song", "volume": 1, "stream": true } ]
+    },
+    "labs.justice_march": {
+      "category": "music",
+      "max_distance": 128,
+      "sounds": [ { "name": "justice_march", "volume": 1, "stream": true } ]
+    },
+    "labs.shroom_song": {
+      "category": "music",
+      "max_distance": 128,
+      "sounds": [ { "name": "shroom_song", "volume": 1, "stream": true } ]
+    },
+    "labs.smelter_song": {
+      "category": "music",
+      "max_distance": 128,
+      "sounds": [ { "name": "smelter_song", "volume": 1, "stream": true } ]
+    },
+    "labs.creeper_song": {
+      "category": "music",
+      "max_distance": 128,
+      "sounds": [ { "name": "creeper_song", "volume": 1, "stream": true } ]
+    },
+    "labs.iron_golems": {
+      "category": "music",
+      "max_distance": 128,
+      "sounds": [ { "name": "iron_golems", "volume": 1, "stream": true } ]
+    }
+    }
+}
