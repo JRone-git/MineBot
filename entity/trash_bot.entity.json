@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "myname:trash_bot",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/miner_bot" },
+      "geometry": { "default": "geometry.farmer_bot" },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "texture": "gunna_spawn_egg" }
+    }
+  }
+}

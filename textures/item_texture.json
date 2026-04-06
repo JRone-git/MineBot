@@ -1,0 +1,25 @@
+{
+  "texture_data": {
+    "gunna_spawn_egg": {
+      "textures": ["textures/items/gunna_spawn_egg"]
+    },
+    "fisher_bot_spawn_egg": {
+      "textures": ["textures/items/gunna_spawn_egg"]
+    },
+    "hot_lava_chicken": {
+      "textures": ["textures/items/cooked_chicken"]
+    },
+    "fly_high_shroom": {
+      "textures": ["textures/items/fly_high_shroom"]
+    },
+    "zoom_shroom": {
+      "textures": ["textures/items/zoom_shroom"]
+    },
+    "doom_blade": {
+      "textures": ["textures/items/doom_blade"]
+    },
+    "superdrill": {
+      "textures": ["textures/items/superdrill"]
+    }
+  }
+}

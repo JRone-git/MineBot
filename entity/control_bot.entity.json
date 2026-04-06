@@ -1,0 +1,19 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "myname:control_bot",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/worker_bot" },
+      "geometry": { "default": "geometry.farmer_bot" },
+      "animations": {
+        "look_at_target": "animation.common.look_at_target",
+        "move_controller": "controller.animation.iron_golem.move",
+        "arm_controller": "controller.animation.iron_golem.arm_movement"
+      },
+      "scripts": { "animate": ["look_at_target", "move_controller", "arm_controller"] },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "texture": "gunna_spawn_egg" }
+    }
+  }
+}
