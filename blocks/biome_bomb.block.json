@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "myname:biome_bomb",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.4
+			},
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:geometry": "geometry.biome_bomb",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "biome_bomb",
+					"render_method": "alpha_test",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:light_emission": 10,
+			"minecraft:light_dampening": 2,
+			"minecraft:map_color": "#970bc9"
+		}
+	}
+}
